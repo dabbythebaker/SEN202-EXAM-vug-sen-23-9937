@@ -1,0 +1,4 @@
+class AddressSerializer(serializers.ModeSerializer):
+    class Meta:
+        model = address
+        fields = '--all--'
